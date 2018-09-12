@@ -74,7 +74,7 @@ div.content {
     }
 
     .inside {
-        width: 80vw;
+        width: 70vw;
         margin: 60vh 20vw 60vh 20vw;
         height: auto;
         display: block;
@@ -82,7 +82,7 @@ div.content {
         justify-content: center;
         background-color: black;
         overflow-wrap: break-word;
-        overflow: auto;
+        overflow: scroll;
         z-index: 10;
     }
 
@@ -169,7 +169,7 @@ ul.groups {
 
 
 .inside {
-    width: 80vw;
+    width: 70vw;
     margin: 60vh 20vw 60vh 10vw;
     height: 120vh;
     display: flex;
@@ -177,7 +177,7 @@ ul.groups {
     justify-content: center;
     background-color: black;
     overflow-wrap: break-word;
-    overflow:auto;
+    overflow:scroll;
 }
 
 .one {
