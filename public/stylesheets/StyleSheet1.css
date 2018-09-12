@@ -83,6 +83,7 @@ div.content {
         background-color: black;
         overflow-wrap: break-word;
         overflow: scroll;
+        z-index: 10;
     }
 
     iframe {

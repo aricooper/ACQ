@@ -1,15 +1,6 @@
 {
   "name": "express-app1",
   "version": "0.0.0",
-  "configurations": [
-    {
-        "name": "Launch localhost",
-        "type": "chrome",
-        "request": "launch",
-        "url": "http://localhost/mypage.html",
-        "webRoot": "${workspaceFolder}/C:/Users/Ari/source/repos/ExpressApp1/ExpressApp1"
-    }
-  ],
   "private": true,
   "scripts": {
     "start": "node app"
