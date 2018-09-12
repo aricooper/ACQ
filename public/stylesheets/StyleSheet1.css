@@ -82,7 +82,7 @@ div.content {
         justify-content: center;
         background-color: black;
         overflow-wrap: break-word;
-        overflow: scroll;
+        overflow: auto;
         z-index: 10;
     }
 
@@ -177,7 +177,7 @@ ul.groups {
     justify-content: center;
     background-color: black;
     overflow-wrap: break-word;
-    overflow:scroll;
+    overflow:auto;
 }
 
 .one {
