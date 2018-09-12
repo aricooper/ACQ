@@ -74,7 +74,7 @@ div.content {
     }
 
     .inside {
-        width: 60vw;
+        width: 80vw;
         margin: 60vh 20vw 60vh 20vw;
         height: auto;
         display: block;
@@ -169,7 +169,7 @@ ul.groups {
 
 
 .inside {
-    width: 60vw;
+    width: 80vw;
     margin: 60vh 20vw 60vh 10vw;
     height: 120vh;
     display: flex;
