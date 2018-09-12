@@ -1,0 +1,31 @@
+{
+  "name": "express-app1",
+  "version": "0.0.0",
+  "configurations": [
+    {
+        "name": "Launch localhost",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost/mypage.html",
+        "webRoot": "${workspaceFolder}/C:/Users/Ari/source/repos/ExpressApp1/ExpressApp1"
+    }
+  ],
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "description": "ACQ",
+  "author": {
+    "name": "Ari"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.0",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "git": "^0.1.5",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta6",
+    "serve-favicon": "^2.3.0"
+  }
+}

@@ -1,0 +1,193 @@
+﻿/*Main page layout*/
+body {
+    background-image: url('../images/acqindex.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 100%;
+}
+
+/*Menu bar at top of screen for navigation to sections*/
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f2ae72;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+    ul.sidenav li a.active {
+        background-color: #f2e394;
+        color: black;
+    }
+
+    ul.sidenav li a:hover:not(.active) {
+        background-color: #d96459;
+        color: white;
+    }
+
+div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 900px) {
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    ul.sidenav li a {
+        float: left;
+        padding: 15px;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+
+    .docScroller {
+        top: 0;
+        width: 100vw;
+        margin-left:0vw;
+        height: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: mandatory;
+        scroll-snap-points-y: repeat(100%);
+        scroll-snap-type: mandatory;
+        scroll-snap-destination: 100% 0%;
+      
+    }
+
+    .inside {
+        width: 60vw;
+        margin: 60vh 20vw 60vh 20vw;
+        height: auto;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        overflow-wrap: break-word;
+        overflow: scroll;
+    }
+
+    iframe {
+        margin-left: 0vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
+}
+
+/*DocScroller for different Sections*/
+.docScroller {
+    overflow-x: hidden;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    margin-left: 20vw;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100%);
+    scroll-snap-type: mandatory;
+    scroll-snap-destination: 100% 0%;
+    overflow-wrap: break-word;
+}
+p {
+    text-align: left;
+    color: #d6cbd3;
+    font-size: 0.4em;
+    text-wrap: normal;
+
+}
+
+.links {
+    margin: 0 0 0 18vw;
+    position: absolute;
+    display: inline-flex;
+    color: #d6cbd3;
+    font-size: 0.4em;
+    text-wrap: normal;
+}
+
+a.facebook {
+    margin: 0 0 0 -4vw;
+    position: absolute;
+    display: inline-flex;
+    padding: 3vh 3vw 3vh 3vw;
+    background-image: url('../images/facebook.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+iframe.spotify {
+    display: block;
+    border: none;
+    margin-left:10vw;
+    margin-top:-0.5vh;
+    position:fixed;
+}
+
+#album {
+    display: inline-flex;
+    margin-left: 27vw;
+}
+
+
+h1 {
+    color: #ada397;
+}
+
+h2 {
+    color: #f2e394;
+}
+
+ul.groups {
+    list-style-type: none;
+}
+
+
+.inside {
+    width: 60vw;
+    margin: 60vh 20vw 60vh 10vw;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow-wrap: break-word;
+    overflow:scroll;
+}
+
+.one {
+    background-color: #588c7e;
+   
+}
+
+.two {
+    background: #f7786b;
+}
+
+.three {
+    background: #77a8a8;
+}
