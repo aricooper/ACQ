@@ -118,7 +118,7 @@ p {
     text-align: left;
     color: #d6cbd3;
     font-size: 0.6em;
-    text-wrap: normal;
+    z-index: 5;
 
 }
 
@@ -147,6 +147,7 @@ iframe.spotify {
     margin-left:10vw;
     margin-top:-0.5vh;
     position:fixed;
+    z-index: 10;
 }
 
 #album {
@@ -182,18 +183,15 @@ ul.groups {
 
 .one {
     background-color: #588c7e;
-    z-index: -5;
    
 }
 
 .two {
     background: #f7786b;
-    z-index: -5;
 
 }
 
 .three {
     background: #77a8a8;
-    z-index: -5;
 
 }

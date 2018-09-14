@@ -10,10 +10,9 @@
             "request": "launch",
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}",
-            "sourceMapPathOverrides": {
-                "webpack:/*": "${webRoot}/*"
-            }
+            "webRoot": "${workspaceFolder}/app.js"
+
+            
         }
     ]
 }
