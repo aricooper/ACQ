@@ -182,13 +182,18 @@ ul.groups {
 
 .one {
     background-color: #588c7e;
+    z-index: -5;
    
 }
 
 .two {
     background: #f7786b;
+    z-index: -5;
+
 }
 
 .three {
     background: #77a8a8;
+    z-index: -5;
+
 }
