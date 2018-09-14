@@ -63,7 +63,7 @@ div.content {
     .docScroller {
         top: 0;
         width: 100vw;
-        margin: 60vh 20vw 60vh 20vw;
+        margin: 60vh 20vw 60vh 40vw;
         height: auto;
         -webkit-overflow-scrolling: touch;
         scroll-snap-type: mandatory;
