@@ -63,13 +63,14 @@ div.content {
     .docScroller {
         top: 0;
         width: 100vw;
-        margin-left:0vw;
+        margin: 60vh 20vw 60vh 20vw;
         height: auto;
         -webkit-overflow-scrolling: touch;
         scroll-snap-type: mandatory;
         scroll-snap-points-y: repeat(100%);
         scroll-snap-type: mandatory;
         scroll-snap-destination: 100% 0%;
+        overflow-wrap: break-word;
       
     }
 
