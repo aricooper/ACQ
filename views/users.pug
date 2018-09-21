@@ -17,18 +17,20 @@ html
             a( href='#watch', id='links', onclick='highlight(this)') Watch
 
     
-    iframe( class='spotify' src="https://open.spotify.com/embed/album/5oVsZVv3e6yIJ3LuzjEYD6" width="250" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media")
-    img( id='album' width='15%' height='15%' src='../images/ACQ album art_Fotor1.jpg')
+    iframe( class='spotify' src="https://open.spotify.com/embed/album/5oVsZVv3e6yIJ3LuzjEYD6" width="251" height="349" frameborder="0" allowtransparency="true" allow="encrypted-media")
+    
+    
     .docScroller
         .one#aboutACQ
             h1 About
                     img(src="../images/avery.jpg" style="display:inline-flex;margin-left:4vw;height:15%;width:15%;")
                     img(src="../images/averyFlute.jpg" style="display:inline-flex;margin-left:5vw;height:15%;width:15%;")
                     img(src="../images/averyBari.jpg" style="display:inline-flex;margin-left:5vw;height:15%;width:15%;")
-                    p Avery Cooper is a multi-instrumentalist, bandleader, and educator in the Burlington area. 
-                    p He graduated from UVM in 2017 with a jazz performance degree. 
-                    p He is well versed in alto, tenor and baritone sax, flute, as well as music theory and composition. 
-                    p Now, he works at Champlain Valley Union and Edmonds Middle School, in addition to taking on private lessons. 
+                    .inside
+                        p Avery Cooper is a multi-instrumentalist, bandleader, and educator in the Burlington area. 
+                        p He graduated from UVM in 2017 with a jazz performance degree. 
+                        p He is well versed in alto, tenor and baritone sax, flute, as well as music theory and composition. 
+                        p Now, he works at Champlain Valley Union and Edmonds Middle School, in addition to taking on private lessons. 
                 
     .docScroller
         .two#group
@@ -41,7 +43,7 @@ html
                                 p ACQ (Avery Cooper Quartet) is a high energy funk/fusion band based out of Burlington VT. 
                                 p They take jazz standards and make them funky, while also performing innovative originals to create a funky musical experience 
                                 p completely unique from todays typical jazz quartet.
-                                    
+                                    img( id='bands' src='../images/ACQ album art_Fotor1.jpg')
                                     ul
                                         li
                                             p Avery Cooper - Bandleader, Alto/Bari Sax, Flute
@@ -51,28 +53,47 @@ html
                                             p Ian Mack  -Guitar
                                         li
                                             p Ethan Shafron - Drums
+    .docScroller
+        .three#CCD
+                h1 Groups
+                    ul.groups                                        
                         li
-                            
                             h2 Cooper-Childs Duo
                                 p Avery Cooper (saxes, vocals, flute) and Josh Childs (keys/organ) play classic jazz repertoire, from Charlie Parker to Lee Konitz.
                                 p The two create a intricate and rich sound that’s sure to get your feet tapping.
+    .docScroller
+        .four#Mystic
+                h1 Groups
+                    ul.groups                                
                         li
                             a(class='facebook', href='https://www.facebook.com/theVANMORRISONTRIBUTE/')
                             h2 Into the Mystic
                                 p Into The Mystic is a Van Morrison Tribute band, led by Justin Panigutti.
-                                
+                                img(id='bands', src='../images/intpMystic.jpg')
+    .docScroller
+        .five#WW
+                h1 Groups
+                    ul.groups                                
+                        li
+                            h2 Warm Water
+                                a(type='link', class='links', href='https://warmwatermusic.com/') warmwatermusic.com
+                                p Warm Water is led by Hannah Hausman on vocals and Jack Hanson on keyboard, playing original music of the jazz and soul traditions.
+                                img(src="../images/warmwater.jpg", id="bands")
+    .docScroller
+        .six#SPJ
+                h1 Groups
+                    ul.groups                                
                         li
                             
-                            h2 Warm Water
-                                p Warm Water is led by Hannah Hausman on vocals and Jack Hanson on keyboard, playing original music of the jazz and soul traditions.
-                                
-                        li
-                            a(type='link', class='links', href='https://warmwatermusic.com/') warmwatermusic.com
                             a(class='facebook', href='https://www.facebook.com/strangepurplejelly/')
                             h2 Strange Purple Jelly
                                 p SPJ plays vibes of funky Rock-n-Roll with that contemporary Rock-n-Soul.
+                                img(id='bands', src='../images/spj.jpg')
     .docScroller
-        .three#watch
+        .seven#watch
                 h1 Watch
                     iframe(src="//www.youtube.com/embed/0pZWoq6rZC8" style="height:50vh;width:50vw;display:block;border:none;margin: 5vh 5vw;")
-                    iframe(src="//www.youtube.com/embed/rXVipfFIuOQ" style="height:50vh;width:50vw;display:block;border:none;margin: 5vh 5vw;padding-bottom:5vh;")
+                    iframe(src="//www.youtube.com/embed/rXVipfFIuOQ" style="height:50vh;width:50vw;display:block;border:none;margin: 5vh 5vw;padding-bottom:10vh;")
+    .docScroller
+        .eight#Calendar
+                h1 Calendar Coming Soon
