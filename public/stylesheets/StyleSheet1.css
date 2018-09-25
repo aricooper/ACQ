@@ -9,6 +9,14 @@ body {
     font-size: 100%;
 }
 
+.center {
+    float: right;
+    margin-right: 50%;
+    width:50%;
+    padding:5vh 5vw 5vh 5vw;
+    height:50%;
+}
+
 /*Menu bar at top of screen for navigation to sections*/
 ul.sidenav {
     list-style-type: none;
@@ -17,7 +25,7 @@ ul.sidenav {
     width: 10%;
     background-color: #f2ae72;
     position: fixed;
-    height: 47%;
+    height: auto;
     overflow: auto;
     margin-top: -80vh;
 }
