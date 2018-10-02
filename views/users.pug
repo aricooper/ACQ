@@ -10,11 +10,13 @@ html
   body
     ul.sidenav
         li
-            a(  class='active', href='#aboutACQ', id='about', onclick='highlight(this)' ) About
+            a(  class='active', href='#aboutACQ', id='links', onclick='highlight(this)' ) About
         li
-            a(  href='#group', id='groups', onclick='highlight(this)' ) Groups
+            a(  href='#group', id='links', onclick='highlight(this)' ) Groups
         li
             a( href='#watch', id='links', onclick='highlight(this)') Watch
+        li
+            a( href='#calendar', id='links', onclick='highlight(this)') Calendar
 
     
     iframe( class='spotify' src="https://open.spotify.com/embed/album/5oVsZVv3e6yIJ3LuzjEYD6" width="251" height="349" frameborder="0" allowtransparency="true" allow="encrypted-media")
@@ -53,9 +55,6 @@ html
                                             p Ian Mack  -Guitar
                                         li
                                             p Ethan Shafron - Drums
-                h1 Calendar
-                .center
-                    <iframe src="https://calendar.google.com/calendar/embed?src=v91ic3tsdg2o7jvca2bteq8tqo%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0;" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     .docScroller
         .three#CCD
                 h1 Groups
@@ -64,9 +63,6 @@ html
                             h2 Cooper-Childs Duo
                                 p Avery Cooper (saxes, vocals, flute) and Josh Childs (keys/organ) play classic jazz repertoire, from Charlie Parker to Lee Konitz.
                                 p The two create a intricate and rich sound that’s sure to get your feet tapping.
-                h1 Calendar
-                .center
-                    <iframe src="https://calendar.google.com/calendar/embed?src=bdogm5uaj2p1o810qnp0cg1c44%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     .docScroller
         .four#Mystic
                 h1 Groups
@@ -100,4 +96,6 @@ html
                 h1 Watch
                     iframe(src="//www.youtube.com/embed/0pZWoq6rZC8" style="height:50vh;width:50vw;display:block;border:none;margin: 5vh 5vw;")
                     iframe(src="//www.youtube.com/embed/rXVipfFIuOQ" style="height:50vh;width:50vw;display:block;border:none;margin: 5vh 5vw;padding-bottom:10vh;")
-                
+    .docScroller
+        .eight#calendar
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=av30b88tilq5v0u4r088vujbm4%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>                
